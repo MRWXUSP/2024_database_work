@@ -92,6 +92,8 @@ class OpenCourse(QWidget):
                 QMessageBox.information(self, '抱歉', '课时冲突', QMessageBox.Yes)
             elif flag == 2:
                 QMessageBox.information(self, '抱歉', '该课程名对应课号不存在', QMessageBox.Yes)
+            elif flag == 4:
+                QMessageBox.information(self, '抱歉', '该课程名不存在', QMessageBox.Yes)
 
         self.cnameInput.clear()
         self.ctimeInput.clear()

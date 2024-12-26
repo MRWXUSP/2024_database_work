@@ -141,8 +141,11 @@ def openCourse(usr, term, cname, ctime):
         time2 = x[0]
         if judgeclasstime(time1, time2) == False:
             return 2 # 课时冲突
-
-    kh = searchOnC(1, 0, 0, 0, 0, km=cname)[0][0] 
+    try:
+        kh = searchOnC(1, 0, 0, 0, 0, km=cname)[0][0] 
+    except Exception as e:
+        print(e)
+        return 4 # 课名不存在
     if kh is None:
         return 3 # 课号不存在
     sql = "insert into O values('%s',	'%s',  '%s',	'%s')" % (term, kh, usr, ctime)
