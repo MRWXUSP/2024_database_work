@@ -110,7 +110,7 @@ onSelect 方法处理退课操作，
 并调用 util.dropSelectCourse 方法退课。
 如果退课成功，更新课程表。
 '''
-    def onSelect(self):
+def onSelect(self):
         
         for i in range(self.rownum):
             if self.rbtns[i].isChecked() == True:
