@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-# 说明：这是退课窗口
+# 说明：这是退课窗口应用程序，使用 PyQt5 库创建图形用户界面
 
 
 from PyQt5 import QtWidgets, QtCore, QtGui
@@ -24,6 +24,12 @@ import util
 
 usr = 1102
 term = '2024-2025学年冬季'
+
+'''
+DropCourse 类继承自 QWidget，
+用于创建退课窗口
+构造函数初始化用户 ID 和学期，并调用 initUI 方法初始化界面。
+'''
 class DropCourse(QWidget):
 
     def __init__(self, usr=None, term=None):
@@ -42,7 +48,7 @@ class DropCourse(QWidget):
         self.setLayout(self.centerLayout)
 
         self.createCenterTable(util.showSelectCourse(self.usr, self.term))
-
+#当前显示的课程表和相关控件
     def delCenterTable(self):
         if self.msg.text() != '':
             self.centerLayout.removeWidget(self.msg)
@@ -98,7 +104,12 @@ class DropCourse(QWidget):
         self.bottom.setLayout(hbox)
 
         self.centerLayout.addWidget(self.bottom)
-
+'''
+onSelect 方法处理退课操作，
+检查用户选择的课程，
+并调用 util.dropSelectCourse 方法退课。
+如果退课成功，更新课程表。
+'''
     def onSelect(self):
         
         for i in range(self.rownum):
