@@ -1,0 +1,8 @@
+APP/__pycache__/
+BACK/__pycache__/
+Course/__pycache__/
+Course/Student/__pycache__/
+Course/Teacher/__pycache__/
+Score/__pycache__/
+Score/Student/__pycache__/
+Score/Teacher/__pycache__/
