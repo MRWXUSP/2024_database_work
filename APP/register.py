@@ -1,9 +1,5 @@
 # -*- coding: utf-8 -*-
-'''
-# Created on Feb-07-20 23:23
-# register.py
-# @author: ss
-'''
+
 
 '''
 这是一个注册对话窗口

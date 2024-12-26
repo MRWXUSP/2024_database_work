@@ -1,10 +1,7 @@
 # -*- coding: utf-8 -*-
-'''
-# Created on Feb-07-20 15:02
-# course.py
-# @author: ss
+
 # 说明：这是课程管理窗口主界面
-'''
+
 
 from PyQt5 import QtWidgets, QtCore, QtGui
 from PyQt5.QtCore import Qt, QSize

@@ -1,10 +1,7 @@
 # -*- coding: utf-8 -*-
-'''
-# Created on Feb-28-20 15:39
-# common.py
-# @author: ss
+
 # @description: 存放一些窗口通用函数
-'''
+
 
 from PyQt5.QtWidgets import QDesktopWidget
 

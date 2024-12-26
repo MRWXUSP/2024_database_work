@@ -1,10 +1,7 @@
 # -*- coding: utf-8 -*-
-'''
-# Created on Feb-28-20 14:29
-# course.py
-# @author: ss
+
 # @description: 课程管理相关数据库接口函数实现
-'''
+
 import sys
 import os 
 sys.path.append(os.path.abspath(os.path.dirname(__file__)+'/'+'..'))

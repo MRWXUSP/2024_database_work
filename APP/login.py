@@ -1,9 +1,5 @@
 # -*- coding: utf-8 -*-
-'''
-# Created on Feb-06-20 16:04
-# login.py
-# @author: ss
-'''
+
 
 '''
 应用程序登录界面

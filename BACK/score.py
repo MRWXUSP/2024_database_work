@@ -1,10 +1,7 @@
 # -*- coding: utf-8 -*-
-'''
-# Created on Feb-28-20 14:32
-# score.py
-# @author: ss
+
 # @description: 成绩管理模块
-'''
+
 
 from BACK.util import op_mysql
 from BACK.util import judgeclasstime

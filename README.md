@@ -55,7 +55,7 @@
 1. 当老师本学期未开任何课时，成绩查询按钮单击会导致程序崩溃
 
 ### 如何运行
-1. 确保你安装了上“实验环境”中的python包
+1. 确保你安装了上“项目环境”中的python包
 2. 确保你安装了mysql 8.x 以上版本（可参考此链接教程安装：<a href="https://www.cnblogs.com/canfengfeixue/p/18002244">mysql安装教程</a>）
 3. 在mysql中运行文件[create.sql](./create.sql)创建对应数据库和数据表
 4. 修改[util.py](./BACK/util.py)中的数据库连接信息为你自己的mysql信息

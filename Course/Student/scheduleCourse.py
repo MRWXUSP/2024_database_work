@@ -1,9 +1,7 @@
 # -*- coding: utf-8 -*-
-'''
-# Created on Feb-10-20 16:42
-# scheduleCourse.py
+
 # @author: ss
-'''
+
 
 '''
 已选课程

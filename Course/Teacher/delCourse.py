@@ -1,10 +1,6 @@
 # -*- coding: utf-8 -*-
-'''
-# Created on Feb-28-20 15:10
-# delCourse.py
-# @author: ss
+
 # @description: 删除课程模块
-'''
 
 from PyQt5 import QtWidgets, QtCore, QtGui
 from PyQt5.QtCore import Qt, QSize

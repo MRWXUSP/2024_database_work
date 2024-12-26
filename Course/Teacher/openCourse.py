@@ -1,10 +1,6 @@
 # -*- coding: utf-8 -*-
-'''
-# Created on Feb-11-20 17:00
-# openCourse.py
-# @author: ss
+
 # 说明：开设课程窗口模块设计
-'''
 
 from PyQt5 import QtWidgets, QtCore, QtGui
 from PyQt5.QtCore import Qt, QSize

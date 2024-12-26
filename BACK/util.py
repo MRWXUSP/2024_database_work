@@ -1,10 +1,7 @@
 # -*- coding: utf-8 -*-
-'''
-# Created on Feb-06-20 16:56
-# util.py
-# @author: ss
+
 # 说明：这里主要后台对数据库的调用
-'''
+
 
 import pymysql,hashlib
 import re 

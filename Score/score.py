@@ -1,9 +1,4 @@
 # -*- coding: utf-8 -*-
-'''
-# Created on Feb-08-20 12:39
-# score.py
-# @author: ss
-'''
 
 '''
 这主要是成绩管理模块

@@ -1,10 +1,7 @@
 # -*- coding: utf-8 -*-
-'''
-# Created on Feb-10-20 16:50
-# finishedCourse.py
-# @author: ss
+
 # 说明： 查询已经选修过的所有课程
-'''
+
 
 from PyQt5 import QtWidgets, QtCore, QtGui
 from PyQt5.QtCore import Qt, QSize

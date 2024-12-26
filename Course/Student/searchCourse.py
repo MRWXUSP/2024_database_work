@@ -1,10 +1,7 @@
 # -*- coding: utf-8 -*-
-'''
-# Created on Feb-10-20 16:19
-# searchCourse.py
-# @author: ss
+
 # 说明: 这是课程查询窗口
-'''
+
 
 from PyQt5 import QtWidgets, QtCore, QtGui
 from PyQt5.QtCore import Qt, QSize

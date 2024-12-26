@@ -1,10 +1,6 @@
 # -*- coding: utf-8 -*-
-'''
-# Created on Feb-28-20 14:13
-# util.py
-# @author: ss
+
 # @description: 提供通用数据接口模块
-'''
 
 import sys
 import os 

@@ -1,10 +1,6 @@
 # -*- coding: utf-8 -*-
-'''
-# Created on Feb-15-20 15:56
-# transcript.py
-# @author: ss
+
 # 说明：成绩单显示成绩模块
-'''
 
 from PyQt5 import QtWidgets, QtCore, QtGui
 from PyQt5.QtCore import Qt, QSize

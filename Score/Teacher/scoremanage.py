@@ -1,10 +1,6 @@
 # -*- coding: utf-8 -*-
-'''
-# Created on Feb-15-20 17:08
-# scoremanage.py
-# @author: ss
+
 # 说明：成绩管理窗口
-'''
 
 from PyQt5 import QtWidgets, QtCore, QtGui
 from PyQt5.QtCore import Qt, QSize

@@ -1,9 +1,4 @@
 # -*- coding: utf-8 -*-
-'''
-# Created on Feb-09-20 19:55
-# selectCourse.py
-# @author: ss
-'''
 
 '''
 选课窗口设计
