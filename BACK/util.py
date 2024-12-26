@@ -5,6 +5,7 @@
 
 import pymysql,hashlib
 import re 
+import sys
 
 def md5(s, salt='Database2020!$%@#+'):
     '''
@@ -62,9 +63,15 @@ db = Database(mysql_info)
 
 def op_mysql(sql:str):
     '''
-    输入sql命令操作数据库返回对应结果
+    输入sql命令操作数据库返回对应结果，出错将返回错误信息并回滚
     '''
-    return db._execute(query=sql)
+    try:
+        result = db._execute(query=sql)
+    except Exception as e:
+        print(e)
+        db.rollback()
+    finally:
+        return result
 
 def search(ser, tablename, jud, jres):
     sql = 'select ' + ser + ' from ' + tablename
