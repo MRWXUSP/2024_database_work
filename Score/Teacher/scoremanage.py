@@ -55,7 +55,11 @@ class Scoremanage(QWidget):
         self.centerLayout = QVBoxLayout()
         self.rownum = 0
         self.showtable = None
-        self.createCenterTable(util.getClassLists(self.term, self.coursedata[self.courseButton.currentIndex()][0], self.usr))
+        try:
+            self.createCenterTable(util.getClassLists(self.term, self.coursedata[self.courseButton.currentIndex()][0], self.usr))
+        except Exception as e:
+            print(e)
+            QMessageBox.warning(self, '警告', '您本学期尚未开设课程', QMessageBox.Yes)
 
         self.saveButton = QPushButton('成绩保存')
         self.saveButton.setIcon(QIcon('./image/save.png'))
