@@ -107,13 +107,13 @@ class DropCourse(QWidget):
         self.bottom.setLayout(hbox)
 
         self.centerLayout.addWidget(self.bottom)
-'''
-onSelect 方法处理退课操作，
-检查用户选择的课程，
-并调用 util.dropSelectCourse 方法退课。
-如果退课成功，更新课程表。
-'''
-def onSelect(self):
+    '''
+    onSelect 方法处理退课操作，
+    检查用户选择的课程，
+    并调用 util.dropSelectCourse 方法退课。
+    如果退课成功，更新课程表。
+    '''
+    def onSelect(self):
         
         for i in range(self.rownum):
             if self.rbtns[i].isChecked() == True:
