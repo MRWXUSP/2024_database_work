@@ -184,6 +184,8 @@ class SelectCourse(QWidget):
         self.bottom.setLayout(hbox)
 
         self.centerLayout.addWidget(self.bottom)
+        '''onSelect 方法处理选课操作，检查用户选择的课程，
+        并调用 util.selectCourse 方法进行选课。如果选课成功，显示成功消息；否则，显示冲突消息。'''
 
     def onSelect(self):
 

@@ -91,13 +91,16 @@ class DropCourse(QWidget):
         self.selectbtn = QPushButton('确认退课')
         self.selectbtn.setIcon(QIcon('./image/exit.png'))
         self.selectbtn.clicked.connect(self.onSelect)
-        
+        #self.bottom 是一个新的 QWidget 对象，用于包含水平布局和按钮控件。
         self.bottom = QWidget()
+        #hbox 是一个 QHBoxLayout 对象，用于水平排列控件。
         hbox = QHBoxLayout()
+        #添加了弹性空间
         hbox.addStretch(1)
         hbox.addStretch(1)
         hbox.addStretch(1)
         hbox.addWidget(self.selectbtn)
+        #添加按钮控件
         hbox.addStretch(1)
         hbox.addStretch(1)
         hbox.addStretch(1)
@@ -131,9 +134,11 @@ def onSelect(self):
         QMessageBox.warning(self, 'warning', '对不起你没有选择任何课程', QMessageBox.Yes)
 
 if __name__ == "__main__":
-    
+    #创建应用程序对象
     app = QApplication(sys.argv)
+    #创建一个 QApplication 对象
     dropCourse = DropCourse(usr=usr, term=term)
     dropCourse.resize(700, 350)
     dropCourse.show()
+    #动应用程序事件循环
     sys.exit(app.exec_())

@@ -21,7 +21,10 @@ import os
 sys.path.append(os.path.abspath(os.path.dirname(__file__)+'/'+'..'))
 import sip
 import util
-
+'''
+onSearch 方法处理查询操作，获取用户输入的查询条件，并调用 util.searchCourse 方法进行查询。
+如果查询条件为空，显示警告消息；否则，创建并显示查询结果表。
+'''
 term = '2024-2025学年冬季'
 class SearchCourse(QWidget):
 

@@ -22,6 +22,12 @@ sys.path.append(os.path.abspath(os.path.dirname(__file__)+'/'+'..'))
 import sip
 import util
 
+
+'''
+finishedCourse.py ) 类继承自 finishedCourse.py )，
+]用于创建查询已选修课程的窗口。构造函数初始化用户 ID，
+并调用 finishedCourse.py ) 方法初始化界面。
+'''
 class FinishedCourse(QWidget):
 
     def __init__(self, usr=None):

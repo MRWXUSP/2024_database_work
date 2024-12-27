@@ -55,7 +55,7 @@ class Database:
 mysql_info = {
             'host': 'localhost', # 数据库地址
             'user': 'root', # 数据库用户身份
-            'password': '123456', # 数据库用户对应的密码密码
+            'password': 'zxc330483', # 数据库用户对应的密码密码
             'db': 'school', # 数据库的名字
             'charset': 'utf8', # 数据库编码方式
             'autocommit': True}
