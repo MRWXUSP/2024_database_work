@@ -36,6 +36,7 @@ class Database:
         返回执行结果
         '''
         try:
+            # 创建游标对象
             cursor = self._connection.cursor()
             cursor.execute(query)
             s = query.split()[0]

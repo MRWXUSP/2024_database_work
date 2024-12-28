@@ -2,7 +2,7 @@
 
 
 ### 项目简介
-参考自[StudentSystem](https://github.com/2019ZSS/StudentSystem?utm_source=chatgpt.com)
+<!-- 参考自[StudentSystem](https://github.com/2019ZSS/StudentSystem?utm_source=chatgpt.com) -->
 ```
     这是一个基于Python Pyqt5实现的学生课程成绩管理系统。
     C/S 模式
@@ -30,6 +30,15 @@
     2. 新创建的一个用户表。
     数据表具体创建可参见 create.sql
 ```
+
+### 项目分工
+| 组员 | 分工 |
+| --- | --- |
+| 张铭昊 | 后端接口实现 |
+| 束建杰 | 数据库设计 |
+| 郑昕晨 | 前后端结合式开发 |
+| 叶晨新 | 前端界面-Course模块与运行测试 |
+| 彭千容 | 前端界面-Score模块与运行测试 |
 
 ### 功能
 共分为两种身份，两种模块，身份有学生和教师，模块有课程管理和成绩管理
