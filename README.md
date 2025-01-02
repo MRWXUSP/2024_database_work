@@ -2,7 +2,6 @@
 
 
 ### 项目简介
-<!-- 参考自[StudentSystem](https://github.com/2019ZSS/StudentSystem?utm_source=chatgpt.com) -->
 ```
     这是一个基于Python Pyqt5实现的学生课程成绩管理系统。
     C/S 模式
